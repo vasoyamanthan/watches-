@@ -1,0 +1,1113 @@
+/* only teg css */
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+::selection {
+    color: black;
+    background: rgb(255, 166, 0);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-page-block {
+    background-image: url(../img/slider01.jpg);
+    height: 912px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.content {
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-sizing: border-box;
+}
+
+.logo-img {
+    width: 233px;
+
+}
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.main-header-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.icons-div {
+    display: flex;
+
+}
+
+.icons-div i {
+    padding: 10px;
+
+}
+
+.header-div {
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 0px 0 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.menu li:nth-child(1) {
+    color: orange;
+
+}
+
+.material-symbols-outlined {
+    display: none !important;
+
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#menu-toggle:checked+.menu-button-container .rotate-icon .menu-span {
+    margin-top: 0px;
+    transform: rotate(360deg);
+}
+
+.best-watches {
+    color: #fff;
+}
+
+.best-watches h3 {
+    margin-top: 135px
+}
+
+.best-watches h2 {
+    font-size: 70px;
+    text-transform: uppercase;
+    width: 54%;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.best-watches button {
+    padding: 18px;
+    width: 160px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.border-gradient {
+    border: 2px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+}
+
+.border-gradient-white {
+    border-image-source: linear-gradient(to right, #fff, #ff7b00);
+}
+
+.best-watches div {
+    background: linear-gradient(to left, #ffffff 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: left top;
+    transition: all .5s ease-out;
+    width: 160px;
+    height: auto;
+}
+
+.best-watches div:hover {
+    background-position: right top;
+    color: black;
+}
+
+.best-watches div:hover .border-gradient {
+
+    color: black;
+}
+
+.second-img-div {
+    display: flex;
+}
+
+.img-div1 img {
+    height: 85%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-div2 img {
+    height: 85%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-div1 {
+    position: relative;
+}
+
+.hybrid-watche {
+    color: white;
+    position: absolute;
+    top: 14%;
+    right: 10%;
+}
+
+.hybrid-h2 {
+    width: 50px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.hybrid-h3 {
+    width: 190px;
+    font-weight: 200;
+    font-size: 23px;
+}
+
+.hybrid-watche button {
+    width: 70%;
+    height: 55px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.img-div2 {
+    position: relative;
+}
+
+.hybrid-watche-img2 {
+    color: white;
+    position: absolute;
+    top: 14%;
+    left: 10%;
+}
+
+.hybrid-watche-img2 .hybrid-h2 {
+    width: 300px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.hybrid-watche-img2 .hybrid-h3 {
+    width: 326px;
+    font-weight: 200;
+    font-size: 23px;
+}
+
+.hybrid-watche-img2 button {
+    width: 40%;
+    height: 55px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.img-div3 {
+    display: flex;
+}
+
+.img1 {
+    display: block;
+    position: relative;
+}
+
+.img2 {
+    display: block;
+    position: relative;
+}
+
+.img3 {
+    display: block;
+    position: relative;
+    height: 50%;
+}
+
+.img-div3 .img1 img {
+    width: 94%;
+}
+
+.Chronograph-div h2 {
+    color: white;
+    font-weight: 200;
+    width: 50%;
+    text-align: center;
+    font-size: 38px;
+    position: absolute;
+    top: 0%;
+    left: 23%;
+}
+
+.best-quartz-div h2 {
+    color: white;
+    font-weight: 200;
+    width: 52%;
+    text-align: center;
+    font-size: 38px;
+    position: absolute;
+    top: 0%;
+    left: 23%;
+}
+
+.swiss-analog-div h2 {
+    color: white;
+    font-weight: 200;
+    width: 52%;
+    text-align: center;
+    font-size: 38px;
+    position: absolute;
+    top: 0%;
+    left: 23%;
+}
+
+.img-div3 .img2 img {
+    width: 94%;
+}
+
+.img-div3 .img3 img {
+    width: 94%;
+}
+
+#classy-dials {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+#classy-dials h2 {
+    font-weight: 100;
+}
+
+.icons-img6 img {
+    margin: 30px 48px;
+    opacity: 0.7;
+}
+
+.icons-img6 img:hover {
+    opacity: 1;
+}
+
+.img-play {
+    background-image: url('../img/Watch-Animation-2.gif');
+    height: 742px;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img-play p {
+    color: #fff;
+    margin: 29px 0 0 10px;
+    font-size: 25px;
+}
+
+.img-button {
+    display: flex;
+    justify-items: center;
+    position: absolute;
+    top: 211px;
+}
+
+.world-branded-h2 {
+    width: 25%;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: 46%;
+}
+
+.img-play .world-branded-h2 p {
+    color: #fff;
+    margin: 29px 0 0 10px;
+    font-size: 25px;
+    width: 79%;
+}
+
+.world-branded-h2 h2 {
+    font-weight: 200;
+    width: 83%;
+}
+
+.last-img-div {
+    position: relative;
+
+}
+.main-inner{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    align-items: center;
+    box-sizing: border-box;
+}
+.inner-item h2{
+    margin-bottom: 0;
+    font-size: 45px;
+    font-weight: 200;
+    text-align: center;
+}
+.inner-item h4{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 200;
+    word-spacing: 4px;
+}
+.inner-item input {
+    width: 170%;
+    padding: 3%;
+    margin-left: -53%;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+    border-bottom: 2px solid orange;
+}
+.inner-item button {
+    background-color: transparent;
+    color: #fff;
+    width: 167%;
+    height: 88%;
+    margin-top: 8%;
+}
+.email-item{
+    display: flex;
+}
+.sub_footer{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    justify-content: space-around;
+    
+}
+.last_div_img img{
+    width: 222px;
+    display: flex;
+  
+}
+.sub_footer address{
+    width: 271px;
+    display: flex;
+  
+
+}
+
+@media screen and (max-width:600px) {
+    .content {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .main-page-block {
+        background-image: url(../img/IWC-Pilot-Watch-Double-Chronograph-Top-Gun-Ceratanium-2.jpg);
+        height: 912px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position-x: 65%;
+    }
+
+    .menu li {
+        display: block;
+        list-style: none;
+        margin: 0px;
+        font-size: 15px !important;
+        font-weight: 400;
+
+    }
+
+    .logo-img {
+        width: 133px;
+    }
+
+    .icons-div i {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .material-symbols-outlined {
+        display: block !important;
+    }
+
+    .material-symbols-outlined:hover {
+        animation: rotate 1s linear;
+    }
+
+    .rotate-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
+    .rotate-icon:hover~.menu {
+        display: block;
+
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        50% {
+            transform: rotate(180deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .best-watches h2 {
+        font-size: 25px;
+        text-transform: uppercase;
+        width: 66%;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+
+    .second-img-div {
+        display: block;
+    }
+
+    .img-div1 img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .img-div2 img {
+        height: 99.3%;
+        margin-top: -5px;
+        width: 100%;
+    }
+
+    .img-div1 {
+        position: relative;
+    }
+
+    .hybrid-watche {
+        color: white;
+        position: absolute;
+        top: 3%;
+        right: 10%;
+    }
+
+    .hybrid-h2 {
+        width: 50px;
+        font-size: 22px;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+
+    .hybrid-h3 {
+        width: 145px;
+        font-weight: 200;
+        font-size: 13px;
+    }
+
+    .hybrid-watche button {
+        width: 65%;
+        height: 44px;
+        background-color: transparent;
+        color: #fff;
+    }
+
+    .hybrid-watche-img2 .hybrid-h2 {
+        width: 186px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .hybrid-watche-img2 .hybrid-h3 {
+        width: 190px;
+        font-weight: 200;
+        font-size: 12px;
+        margin-top: 3px;
+    }
+
+    .hybrid-watche-img2 button {
+        width: 50%;
+        height: 39px;
+        background-color: transparent;
+        color: #fff;
+    }
+
+    .hybrid-watche-img2 {
+        color: white;
+        position: absolute;
+        top: 0%;
+        left: 10%;
+    }
+
+    .img-div3 {
+        display: block;
+    }
+
+    .img-div3 img {
+        width: 100%;
+        height: 450px;
+    }
+
+
+
+    .Chronograph-div h2 {
+        color: white;
+        font-weight: 200;
+        width: 60%;
+        text-align: center;
+        font-size: 27px;
+        position: absolute;
+        top: 0%;
+        left: 23%;
+    }
+
+    .best-quartz-div h2 {
+        color: white;
+        font-weight: 200;
+        width: 52%;
+        text-align: center;
+        font-size: 26px;
+        position: absolute;
+        top: 0%;
+        left: 23%;
+    }
+
+    .swiss-analog-div h2 {
+        color: white;
+        font-weight: 200;
+        width: 52%;
+        text-align: center;
+        font-size: 28px;
+        position: absolute;
+        top: 0%;
+        left: 23%;
+    }
+
+    #classy-dials h2 {
+        font-weight: 100;
+        font-size: 28px;
+    }
+
+    .world-branded-h2 h2 {
+        font-weight: 200;
+        width: 83%;
+        font-size: 30px;
+    }
+
+    .img-play .world-branded-h2 p {
+        color: #fff;
+        margin: 29px 0 0 10px;
+        font-size: 21px;
+        width: 79%;
+    }
+
+    .img-play {
+        background-image: url('../img/Watch-Animation-2.gif');
+        height: 912px;
+        width: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position-x: 43%;
+    }
+    .main-inner{
+        display: flex;
+        flex-direction: column;
+    
+    }
+   .inner-item h2 {
+        margin-bottom: 0;
+        font-size: 25px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .inner-item input {
+        width: 99%;
+        padding: 3%;
+        margin-left: 0%;
+        background-color: transparent;
+        border: none;
+        font-size: 12px;
+        font-weight: 800;
+        border-bottom: 2px solid orange;
+    }
+    .inner-item h4 {
+        margin-top: 10px;
+        font-size: 17px;
+        font-weight: 200;
+        word-spacing: 2px;
+    }
+    .inner-item button {
+        background-color: transparent;
+        color: #fff;
+        width: 60%;
+        height: 88%;
+        padding: 10px;
+        font-size: 10px;
+        margin-top: 8%;
+    }
+    .email-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub_footer {
+        display: flex;
+        color: white;
+        font-size: 25px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:768px) {
+    .content {
+        width: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .main-page-block {
+        background-image: url(../img/watch-1920.jpg);
+        height: 912px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position-x: 65%;
+    }
+
+    .menu li {
+        display: block;
+        list-style: none;
+        margin: 0px;
+        font-size: 15px !important;
+        font-weight: 400;
+
+    }
+
+    .logo-img {
+        width: 133px;
+    }
+
+    .icons-div i {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .material-symbols-outlined {
+        display: block !important;
+    }
+
+    .material-symbols-outlined:hover {
+        animation: rotate 1s linear;
+    }
+
+    .rotate-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
+    .rotate-icon:hover~.menu {
+        display: block;
+
+    }
+
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        50% {
+            transform: rotate(180deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .best-watches h2 {
+        font-size: 35px;
+        text-transform: uppercase;
+        width: 75%;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+
+    .img-div1 img {
+        height: 380px;
+        width: 100%;
+    }
+
+    .img-div2 img {
+        height: 99.3%;
+        margin-top: -5px;
+        width: 100%;
+    }
+
+    .second-img-div {
+        display: block;
+    }
+
+    .hybrid-watche {
+        color: white;
+        position: absolute;
+        top: 12%;
+        right: 15%;
+    }
+
+    .hybrid-watche-img2 {
+        color: white;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+
+
+
+
+    .hybrid-watche-img2 .hybrid-h2 {
+        width: 300px;
+        font-size: 33px;
+        font-weight: 300;
+    }
+
+    .hybrid-watche-img2 .hybrid-h3 {
+        width: 287px;
+        font-weight: 200;
+        font-size: 18px;
+    }
+
+    .hybrid-watche-img2 button {
+        width: 45%;
+        height: 55px;
+        background-color: transparent;
+        color: #fff;
+    }
+
+    .img-div3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-div3 .img1 img {
+        width: 100%;
+    }
+
+    .img-div3 .img2 img {
+        width: 100%;
+    }
+
+    .img1 {
+        display: block;
+        position: relative;
+        width: 49%;
+    }
+
+    .img2 {
+        display: block;
+        position: relative;
+        width: 50%;
+    }
+
+    .img-div3 .img3 img {
+        width: 100%;
+        height: 72%;
+    }
+
+    .Chronograph-div h2 {
+        color: black;
+        font-weight: 200;
+        width: 50%;
+        text-align: center;
+        font-size: 30px;
+        position: absolute;
+        top: 0%;
+        left: 23%;
+    }
+
+    .best-quartz-div h2 {
+        color: white;
+        font-weight: 200;
+        width: 52%;
+        text-align: center;
+        font-size: 22px;
+        position: absolute;
+        top: 0%;
+        left: 23%;
+    }
+
+    .img-play {
+        background-image: url('../img/Watch-Animation-2.gif');
+        height: 912px;
+        width: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position-x: 40%;
+    }
+    .main-inner{
+        display: flex;
+        flex-direction: column;
+    
+    }
+   .inner-item h2 {
+        margin-bottom: 0;
+        font-size: 30px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .inner-item input {
+        width: 108%;
+        padding: 4%;
+        margin-left: 0%;
+        background-color: transparent;
+        border: none;
+        font-size: 14px;
+        font-weight: 800;
+        border-bottom: 2px solid orange;
+    }
+    .inner-item h4 {
+        margin-top: 10px;
+        font-size: 22px;
+        font-weight: 200;
+        word-spacing: 2px;
+    }
+    .inner-item button {
+        background-color: transparent;
+        color: #fff;
+        width: 60%;
+        height: 88%;
+        padding: 13px;
+        font-size: 12px;
+        margin-top: 8%;
+    }
+    .email-item{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1300px) {
+    .menu li {
+        display: inline-block;
+        list-style: none;
+        margin: 0px 0px 0 13px;
+        font-size: 13px !important;
+        font-weight: 400;
+    }
+
+    .logo-img {
+        width: 144px;
+    }
+
+    .main-page-block {
+        background-image: url(../img/slider01.jpg);
+        height: 912px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position-x: 65%;
+    }
+
+    .best-watches h2 {
+        font-size: 50px;
+        text-transform: uppercase;
+        width: 80%;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+
+    .img-div1 img {
+        height: 453px;
+        width: 100%;
+    }
+
+    .img-div2 img {
+        height: 99.3%;
+        margin-top: -5px;
+        width: 100%;
+    }
+
+    .second-img-div {
+        display: block;
+    }
+
+    .hybrid-watche {
+        color: white;
+        position: absolute;
+        top: 15%;
+        right: 18%;
+    }
+
+    .hybrid-h2 {
+        width: 50px;
+        font-size: 45px;
+        font-weight: 300;
+    }
+
+    .img-div1 img {
+        height: 602px;
+        width: 100%;
+    }
+
+    .img-div3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img-div3 .img1 img {
+        width: 100%;
+    }
+
+    .img-div3 .img2 img {
+        width: 100%;
+    }
+
+    .img1 {
+        display: block;
+        position: relative;
+        width: 49%;
+    }
+
+    .img2 {
+        display: block;
+        position: relative;
+        width: 50%;
+    }
+
+    .img-div3 .img3 img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .Chronograph-div h2 {
+        color: black;
+        font-weight: 200;
+        width: 50%;
+        text-align: center;
+        font-size: 35px;
+        position: absolute;
+        top: 0%;
+        left: 23%;
+    }
+
+    .best-quartz-div h2 {
+        color: white;
+        font-weight: 200;
+        width: 52%;
+        text-align: center;
+        font-size: 36px;
+        position: absolute;
+        top: 0%;
+        left: 23%;
+    }
+
+    .swiss-analog-div h2 {
+        color: white;
+        font-weight: 200;
+        width: 52%;
+        text-align: center;
+        font-size: 44px;
+        position: absolute;
+        top: 0%;
+        left: 23%;
+    }
+
+    .icons-img6 img {
+        margin: 30px 48px;
+    }
+
+    .world-branded-h2 {
+        width: 25%;
+        color: #fff;
+        font-size: 25px;
+        position: absolute;
+        top: 37%;
+    }
+
+    .img-play .world-branded-h2 p {
+        color: #fff;
+        margin: 29px 0 0 10px;
+        font-size: 17px;
+        width: 79%;
+    }
+
+    .world-branded-h2 h2 {
+        font-weight: 200;
+        width: 83%;
+    }
+
+    .img-play {
+        background-image: url('../img/Watch-Animation-2.gif');
+        height: 912px;
+        width: 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position-x: 50%;
+    }
+
+    .main-inner{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .inner-item h2 {
+        margin-bottom: 0;
+        font-size: 37px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .inner-item input {
+        width: 113%;
+        padding: 5%;
+        margin-left: 0%;
+        background-color: transparent;
+        border: none;
+        font-size: 16px;
+        font-weight: 800;
+        border-bottom: 2px solid orange;
+    }
+    .inner-item h4 {
+        margin-top: 10px;
+        font-size: 25px;
+        font-weight: 200;
+        word-spacing: 3px;
+    }
+    .inner-item button {
+        background-color: transparent;
+        color: #fff;
+        width: 60%;
+        height: 88%;
+        padding: 16px;
+        font-size: 12px;
+        margin-top: 8%;
+    }
+    .email-item{
+        display: flex;
+        flex-direction: column;
+    }
+
+}

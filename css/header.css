@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-section {
+    min-height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.8)), url('../img/autoparts-1.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.Etrend-logo {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 8px 12px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: all 0.5s;
+}
+
+.nav-links ul li:hover:after {
+    width: 100%;
+}
+
+.text-box {
+    width: 90%;
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.text-box h1 {
+    font-size: 60px;
+}
+
+.text-box button {
+    background-color: transparent;
+    color: #FFF;
+    width: 8%;
+    border: 1px solid white;
+    padding: 15px;
+    cursor: progress;
+}
+
+.text-box button:hover {
+    border: 1px solid #C72028;
+    background-color: #C72028;
+    transition: 1s;
+}
+
+nav .fa-solid {
+    display: none;
+}
+
+/* block--2 */
+
+.main-div-2 .main-inner .item .inner-item {
+    display: flex;
+}
+
+.main-div-2 .main-inner .item .inner-item .inner-img-div {
+    display: flex;
+    align-items: center;
+}
+
+.main-div-2 .main-inner .item .inner-item h2 {
+    text-transform: capitalize;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.main-div-2 .main-inner .item .inner-item p {
+    font-size: 13px;
+    color: #555555;
+    font-weight: 600;
+}
+
+.main-div-2 .main-inner .item {
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.main-div-2 .main-inner .item .inner-item .inner-img-div .inner-img {
+    padding-right: 8px;
+}
+
+.shop-by-category .main-inner .item-1 .inner-item h2 {
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 400;
+    font-size: 40px;
+}
+.shop-by-category .main-inner .item-1 .inner-item h2 i{
+    color: #C72028;
+}
